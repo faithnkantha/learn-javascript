@@ -1,8 +1,7 @@
-//entry control loop that means the condition will be checked first.
-// its used when we dont know number of iteratons.
-let x= 1;
-while(x <=50)
+//we dont know the number of loops
+var a=1;
+while(a<=50)
 {
- document.write('<h1>'+x+'</h1>');
- x+=2
-}  
+document.write("<h1>"+a+"<h1>");
+a+=2;
+}
